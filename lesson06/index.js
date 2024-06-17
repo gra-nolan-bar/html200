@@ -23,7 +23,7 @@ function performBankAction() {
         }
     }
 }
-
+ 
 // Function to withdraw money
 function withdrawMoney() {
     let amount = parseFloat(prompt(`Your balance is $${balance.toFixed(2)}. Enter amount to withdraw:`));
